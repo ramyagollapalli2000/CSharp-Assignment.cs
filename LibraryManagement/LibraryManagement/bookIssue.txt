@@ -1,0 +1,9 @@
+book id:504
+bookname:python
+authorName:guido
+
+user id:204
+username:teja
+branch:cse
+issueDate:23-May-22
+Library fee:360

@@ -1,0 +1,8 @@
+
+Moivie name:kgf
+Timings:9:00
+Seats:25
+
+Moivie name:rrr
+Timings:6:00
+Seats:50

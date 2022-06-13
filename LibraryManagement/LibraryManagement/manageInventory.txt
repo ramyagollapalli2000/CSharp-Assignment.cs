@@ -1,0 +1,65 @@
+Available books in Library
+book id:501
+bookname:java
+authorName:james gosling
+
+
+book id:502
+bookname:c#
+authorName:microsoft
+
+
+book id:503
+bookname:html
+authorName:w3c
+
+
+book id:504
+bookname:python
+authorName:guido
+
+
+book id:505
+bookname:react
+authorName:abc
+
+
+
+
+
+
+
+
+bookdetails
+user id:201
+username:lokesh
+branch:cse
+
+
+user id:202
+username:Ravi
+branch:eee
+
+
+user id:203
+username:shyam
+branch:ece
+
+
+user id:204
+username:teja
+branch:cse
+
+
+user id:205
+username:jafar
+branch:civil
+
+
+
+
+
+
+
+
+user details
