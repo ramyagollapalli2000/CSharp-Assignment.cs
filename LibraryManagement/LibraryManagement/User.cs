@@ -17,11 +17,11 @@ namespace LibraryManagement
             FileStream fileStreamobj = new FileStream(@"D:\CsharpPrograms\LibraryManagement\LibraryManagement\userDetails.txt", FileMode.Create, FileAccess.Write);
             StreamWriter sw = new StreamWriter(fileStreamobj);
             
-            user[0] = "user id:201" + "\n" + "username:lokesh" + "\n" + "branch:cse";
-            user[1] = "user id:202" + "\n" + "username:Ravi" + "\n" + "branch:eee";
-            user[2] = "user id:203" + "\n" + "username:shyam" + "\n" + "branch:ece";
-            user[3] = "user id:204" + "\n" + "username:teja" + "\n" + "branch:cse";
-            user[4] = "user id:205" + "\n" + "username:jafar" + "\n" + "branch:civil";
+            user[0] = "user id:201" + "\n" + "username:ramya" + "\n" + "branch:cse";
+            user[1] = "user id:202" + "\n" + "username:Radha" + "\n" + "branch:eee";
+            user[2] = "user id:203" + "\n" + "username:ravali" + "\n" + "branch:ece";
+            user[3] = "user id:204" + "\n" + "username:nandini" + "\n" + "branch:cse";
+            user[4] = "user id:205" + "\n" + "username:prasanna" + "\n" + "branch:civil";
             for (int i = 0; i < user.Length; i++)
             {
                 sw.WriteLine(user[i]);
