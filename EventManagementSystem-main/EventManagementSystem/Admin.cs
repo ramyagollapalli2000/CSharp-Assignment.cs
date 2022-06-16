@@ -14,8 +14,8 @@ namespace EventManagementSystem
 {
     public class Admin
     {
-        private static string connectionString=@"Data Source=DESKTOP-AMR2CQS\MSSQLSERVER01;Initial Catalog=EventManagementSystem;Integrated Security=True";
-        private  SqlConnection connection=new SqlConnection(connectionString);
+        public static string connectionString=@"Data Source=DESKTOP-LOP1KUA\SQLEXPRESS;Initial Catalog=EventManagementSystem;Integrated Security=True";
+        public  SqlConnection connection=new SqlConnection(connectionString);
         public static int adminId;
         public void AddEvent()
         {
@@ -23,7 +23,7 @@ namespace EventManagementSystem
             {
                 addmoredata:
                 Console.WriteLine("Add the Events --------------------");
-                Console.WriteLine("=============================================================================");
+                Console.WriteLine("================");
                 Console.WriteLine("Enter the Event name");
                 string eventname = Console.ReadLine();
                 Console.WriteLine("Enter the Event Cost  ");
