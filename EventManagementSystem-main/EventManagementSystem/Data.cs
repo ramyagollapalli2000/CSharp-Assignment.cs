@@ -10,7 +10,7 @@ namespace EventManagementSystem
 {
     public class PerFormAllFunctionlity
     {
-        private static string conn = @"Data Source=DESKTOP-AMR2CQS\MSSQLSERVER01;Initial Catalog=EventManagementSystem;Integrated Security=True";
+        private static string conn = @"Data Source=DESKTOP-LOP1KUA\SQLEXPRESS;Initial Catalog=EventManagementSystem;Integrated Security=True";
         private  SqlConnection conn2 = new SqlConnection(conn);
         public void Customermenu()
         {
