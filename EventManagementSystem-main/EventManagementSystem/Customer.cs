@@ -11,8 +11,8 @@ namespace EventManagementSystem
     public class Customer
     {
         public static int userId;
-        private static string connectionString = @"Data Source=DESKTOP-AMR2CQS\MSSQLSERVER01;Initial Catalog=EventManagementSystem;Integrated Security=True";
-        private SqlConnection connection=new SqlConnection(connectionString);
+        public static string connectionString = @"Data Source=DESKTOP-LOP1KUA\SQLEXPRESS;Initial Catalog=EventManagementSystem;Integrated Security=True";
+        public SqlConnection connection=new SqlConnection(connectionString);
         public void showEvents()
         {
             try
